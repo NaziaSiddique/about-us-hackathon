@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+body {
+    font-family: 'Alata', sans-serif;
+}
+img {
+    max-width: 100%;
+}
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+p {
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.8rem;
+}
+a {
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+a:hover {
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+section.aboutUs {
+    position: relative;
+    padding: 50px 0 0px 0;
+}
+section.aboutUs .aboutInner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+section.aboutUs .aboutInner .aboutBlock {
+    position: relative;
+    text-align: center;
+    margin-bottom: 50px;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+section.aboutUs .aboutInner .aboutBlock .images {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+section.aboutUs .aboutInner .aboutBlock .images img{
+    height: 250px;
+    border-radius: 50%;
+}
+section.aboutUs .aboutInner .aboutBlock h3 {
+    font-size: 18px;
+    color: rgba(177,69,55, 1);
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+section.aboutUs .aboutInner .aboutBlock p {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+section.aboutUs .aboutInner .aboutBlock .social ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+section.aboutUs .aboutInner .aboutBlock .social ul li{
+    padding: 0 15px;
+    list-style: none;
+}
+
+section.aboutUs .splashImage{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+section.aboutUs .splashImage img{
+    width: 100%;
+    opacity: 0.25;
+}
+
+@media screen and (max-width: 768px) {
+    section.aboutUs .aboutInner .aboutBlock {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+@media screen and (max-width: 540px) {
+    section.aboutUs .aboutInner .aboutBlock {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
